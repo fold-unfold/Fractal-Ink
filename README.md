@@ -83,11 +83,11 @@ The final image represents the weighted accumulation of many possible trajectori
 </p>
 
 ## Features
-differentiable construction
-domain warping framework
-real-time GLSL implementation
-smooth animation
-compatible with arbitrary image functions
+- differentiable construction
+- domain warping framework
+- real-time GLSL implementation
+- smooth animation
+- compatible with arbitrary image functions
 
 ## Current Implementation
 The current implementation uses Fractal Brownian Motion vector fields both for branching and flow operators.
@@ -95,12 +95,12 @@ The current implementation uses Fractal Brownian Motion vector fields both for b
 The shader renders in real time while preserving smooth continuous animation.
 
 ## Future Work
-tensor implementation
-differentiable optimization
-adaptive flow fields
-recursive branching
-interactive control
-moving blob experiments
+- tensor implementation
+- differentiable optimization
+- adaptive flow fields
+- recursive branching
+- interactive control
+- moving blob experiments
 
 ## Paper
 The complete technical description is available here.
