@@ -19,20 +19,12 @@ Gallery
 <img src="images/gallery_04.png" width="45%">
 
 </p>
-Animation
-<p align="center">
 
-<video
-src="videos/fractal_ink_demo.mp4"
-controls
-loop
-muted
-width="900">
-</video>
+## Animation
 
-</p>
+▶ **[Watch the animation](videos/fractal_ink_demo.mp4)**
 
-Motivation
+## Motivation
 
 The project was inspired by Tyler Hobbs' procedural watercolor experiments, where many distorted copies of the same polygon are alpha-composited to create organic watercolor-like structures.
 
