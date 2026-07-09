@@ -33,11 +33,11 @@ Rather than operating on polygons, Fractal Ink applies the same intuition to arb
 
 The primary design goals were:
 
-applicability to arbitrary images;
-differentiability;
-continuous animation;
-real-time rendering;
-compatibility with future optimization-based methods.
+- applicability to arbitrary images;
+- differentiability;
+- continuous animation;
+- real-time rendering;
+- compatibility with future optimization-based methods.
 
 ## The Operator
 
