@@ -73,13 +73,6 @@ Repeated application of the flow operator evolves each branch independently.
 
 The final image represents the weighted accumulation of many possible trajectories.
 
-## Operator Structure
-<p align="center">
-
-<img src="images/operator_diagram.png" width="700">
-
-</p>
-
 ## Visual decomposition
 
 The operator can be viewed as the interaction of two components: **branching** and **flow**. The following examples vary the number of layers contributed by each component independently.
