@@ -57,6 +57,14 @@ $$
 \sum w_{ij}=1.
 $$
 
+## Operator Structure
+
+<p align="center">
+
+<img src="images/operator_expansion.png" width="100%">
+
+</p>
+
 ## Visual Interpretation
 
 Branching functions generate multiple alternative versions of the original image.
