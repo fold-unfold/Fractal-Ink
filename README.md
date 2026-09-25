@@ -23,7 +23,7 @@ The current implementation is written as a real-time GLSL shader.
 
 ## Animation
 
-▶ **[Watch the animation](videos/fractal_ink_demo.mp4)**
+▶ **[Watch the animation](videos/sequence_0.mp4)**
 
 ## Motivation
 
