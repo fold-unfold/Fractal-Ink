@@ -2,9 +2,13 @@
 
 ## A Branch-and-Flow Operator for Differentiable Image Evolution
 
+**Ilya Krepkiy** — independent research project
+
 Originally developed as an exploration of procedural watercolor rendering, Fractal Ink generalizes the idea of repeated image deformation into a differentiable functional operator applicable to arbitrary images and image-generating functions.
 
-The current implementation is written as a real-time GLSL shader.
+> **Status:** Research prototype / visual demonstration
+
+The current implementation is written as a real-time GLSL shader. The repository documents the current operator formulation and selected visual results; it is not intended as a production implementation or a fully reproducible reconstruction of the exact visual examples.
 
 ## Gallery
 <p align="center">
@@ -23,7 +27,8 @@ The current implementation is written as a real-time GLSL shader.
 
 ## Animation
 
-▶ **[Watch the animation](videos/sequence_0.mp4)**
+▶ **[Watch animation — Sequence 0](videos/sequence_0.mp4)**  
+▶ **[Watch animation — Sequence 1](videos/sequence_1.mp4)**
 
 ## Motivation
 
@@ -31,10 +36,12 @@ The project was inspired by Tyler Hobbs' procedural watercolor experiments, wher
 
 Rather than operating on polygons, Fractal Ink applies the same intuition to arbitrary image-generating functions through repeated domain warping.
 
+Conceptually, the operator separates three roles: **branching** creates a diversity of related trajectories, **flow** evolves each trajectory through repeated deformation, and **accumulation** combines their contributions into the resulting image.
+
 The primary design goals were:
 
 - applicability to arbitrary images;
-- differentiability;
+- construction from differentiable transformations;
 - continuous animation;
 - real-time rendering;
 - compatibility with future optimization-based methods.
@@ -67,11 +74,11 @@ $$
 
 ## Visual Interpretation
 
-Branching functions generate multiple alternative versions of the original image.
+Branching functions generate multiple alternative versions of the original image, creating a diversity of related trajectories.
 
-Repeated application of the flow operator evolves each branch independently.
+Repeated application of the flow operator evolves each branch independently along its own trajectory.
 
-The final image represents the weighted accumulation of many possible trajectories.
+The final image represents the weighted accumulation of these trajectories, so the result is not simply a single warped image but a spatial accumulation of related evolutions.
 
 ## Visual decomposition
 
@@ -90,7 +97,7 @@ With no flow, the individual branched layers remain visually distinguishable. In
 The bottom-right example combines **24 branching layers with 64 flow layers**, for a total of **1536 contributing layers**.
 
 ## Features
-- differentiable construction
+- construction from differentiable transformations
 - domain warping framework
 - real-time GLSL implementation
 - smooth animation
@@ -109,18 +116,13 @@ The shader renders in real time while preserving smooth continuous animation.
 - interactive control
 - moving blob experiments
 
-## Paper
-The complete technical description is available here.
-
-[FractalInk.pdf](pdf/FractalInk.pdf)
 ## Citation
-@misc{FractalInk2026,
+@misc{Krepkiy2026FractalInk,
   title={Fractal Ink: A Branch-and-Flow Operator for Differentiable Image Evolution},
-  author={NAMELESS},
+  author={Ilya Krepkiy},
   year={2026}
 }
 
-## Repository Status
-This repository currently contains the conceptual description of the operator and visual examples.
+## License
 
-The source code will be released separately after the design stabilizes.
+No open-source license is currently granted for this repository. All rights are reserved unless otherwise stated.
