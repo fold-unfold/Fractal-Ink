@@ -32,7 +32,7 @@ The current implementation is written as a real-time GLSL shader. The repository
 
 ## Motivation
 
-The project was inspired by Tyler Hobbs' procedural watercolor experiments, where many distorted copies of the same polygon are alpha-composited to create organic watercolor-like structures.
+The project was inspired by [Tyler Hobbs' procedural watercolor experiments](https://www.tylerxhobbs.com/words/a-guide-to-simulating-watercolor-paint-with-generative-art), where many distorted copies of the same polygon are alpha-composited to create organic watercolor-like structures.
 
 Rather than operating on polygons, Fractal Ink applies the same intuition to arbitrary image-generating functions through repeated domain warping.
 
