@@ -27,8 +27,19 @@ The current implementation is written as a real-time GLSL shader. The repository
 
 ## Animation
 
-▶ **[Watch animation — Sequence 0](videos/sequence_0.mp4)**  
-▶ **[Watch animation — Sequence 1](videos/sequence_1.mp4)**
+### Sequence 0
+
+https://github.com/user-attachments/assets/14f90ae4-332b-4d40-b3db-10b3f910a56a
+
+[High-resolution original](videos/sequence_0.mp4)
+
+### Sequence 1
+
+https://github.com/user-attachments/assets/afcb1c14-9eb0-4417-ae38-3995fd0a0692
+
+[High-resolution original](videos/sequence_1.mp4)
+
+*Embedded videos are optimized previews. Original high-resolution videos are available above.*
 
 ## Motivation
 
@@ -126,7 +137,3 @@ The shader renders in real time while preserving smooth continuous animation.
 ## License
 
 No open-source license is currently granted for this repository. All rights are reserved unless otherwise stated.
-
-## Video embedding test
-
-https://github.com/user-attachments/assets/14f90ae4-332b-4d40-b3db-10b3f910a56a
