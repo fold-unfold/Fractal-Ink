@@ -126,3 +126,7 @@ The shader renders in real time while preserving smooth continuous animation.
 ## License
 
 No open-source license is currently granted for this repository. All rights are reserved unless otherwise stated.
+
+## Video embedding test
+
+https://github.com/user-attachments/assets/14f90ae4-332b-4d40-b3db-10b3f910a56a
