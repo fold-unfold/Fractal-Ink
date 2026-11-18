@@ -29,11 +29,7 @@ The current implementation is written as a real-time GLSL shader. The repository
 
 ### Sequence 0
 
-<video
-  src="https://github.com/user-attachments/assets/14f90ae4-332b-4d40-b3db-10b3f910a56a"
-  controls
-  width="100%">
-</video>
+https://github.com/user-attachments/assets/14f90ae4-332b-4d40-b3db-10b3f910a56a
 
 [High-resolution original](videos/sequence_0.mp4)
 
