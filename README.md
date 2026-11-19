@@ -27,8 +27,12 @@ The current implementation is written as a real-time GLSL shader. The repository
 
 ## Animation
 
-▶ **[Watch animation — Sequence 0](videos/sequence_0.mp4)**  
-▶ **[Watch animation — Sequence 1](videos/sequence_1.mp4)**
+| Sequence 0 | Sequence 1 |
+|:---:|:---:|
+| ![Sequence 0](previews/sequence_0.gif) | ![Sequence 1](previews/sequence_1.gif) |
+| [High-resolution original](videos/sequence_0.mp4) | [High-resolution original](videos/sequence_1.mp4) |
+
+*Animated previews are optimized for quick viewing. Original high-resolution videos are available above.*
 
 ## Motivation
 
